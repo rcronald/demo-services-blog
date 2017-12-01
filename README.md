@@ -67,14 +67,14 @@ To see the function logs you can to execute the following command:
 ```
 sls logs -f hello
 ```
-* Using Postman 
+#### Using Postman 
 To test the function from Postman or Httpie you can to get the url endpoint API REST with the following command:
 ```
 sls info
 ```
 After to get the url endpoint you can to open Postman and test the function.
 
-* Using the AWS Management Console
+#### Using the AWS Management Console
 To test the function from AWS Management Console, you can to open the Api Gateway services and execute manually the endpoint published "demo-services-blog".
 
 
