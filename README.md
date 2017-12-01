@@ -44,6 +44,20 @@ sls deploy -f hello
 After deploy the project to AWS, the framework shows that the lambda function and api gateway services was created.
 
 
+### Branch D3: Using event and context objects
+In this branch we used the objects event and context and customize the response.
+
+For deploy the project to AWS you need to execute the following command:
+```
+sls deploy -f hello
+```
+For test the project using event data you need to execute:
+```
+sls invoke local -f hello -p event.json
+```
+
+
+
 
 ## Contributing
 
