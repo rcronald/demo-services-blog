@@ -13,7 +13,7 @@ Before to start to review this repository you need to install the following comp
 ## Branches
 The project start with the minimal requirements to works, and each functionality is in a branch.
 
-### Branch D1: The initial project
+### Branch D1: Creating simple AWS Lambda function
 This branch contains the initial project created with the following Serverless Framework Command:
 ```
 sls create -t aws-nodejs -n demo-services-blog
@@ -23,6 +23,27 @@ For test the initial project in your local environment you need to execute the f
 ```
 sls invoke local -f hello
 ```
+
+For deploy the initial project to AWS you need to execute the following command:
+```
+sls deploy -f hello
+```
+
+For test the initial project in AWS environment you need to execute the following command:
+```
+sls invoke -f hello
+```
+
+### Branch D2: Creating basic REST API
+This branch contains a basic Lambda function exposed in a REST API "hello"
+
+For deploy the project to AWS you need to execute the following command:
+```
+sls deploy -f hello
+```
+After deploy the project to AWS, the framework shows that the lambda function and api gateway services was created.
+
+
 
 ## Contributing
 
