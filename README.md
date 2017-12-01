@@ -4,15 +4,25 @@ Demo using lambda functions with ServerlessFramework
 ## Getting Started
 This sample is about how use ServerlessFramework to develop an API REST using AWS (Lambda Functions, API Gateway and Dynamo DB).
 
+### Prerequisites
+Before to start to review this repository you need to install the following components and frameworks:
+* Serverless Framework 
+* Npm package mangement
+
+
 ## Branches
 The project start with the minimal requirements to works, and each functionality is in a branch.
 
-* Branch D1: Contains the minimal project
-* Branch D2: 
-* Branch D3:
-* Branch D4:
-* Branch D5:
+### Branch D1: The initial project
+This branch contains the initial project created with the following Serverless Framework Command:
+```
+sls create -t aws-nodejs -n demo-services-blog
+```
 
+For test the initial project in your local environment you need to execute the following command:
+```
+sls invoke local -f hello
+```
 
 ## Contributing
 
